@@ -14,13 +14,13 @@ const Card =({products = []})=>{
                    Elevate your style with our latest masterpiece
                   </h5>
              </div>
-             <div className="flex flex-wrap -m-4 lg:ml-16 sm:ml-0 ml-8">
+             <div className="flex flex-wrap justify-center mx-auto">
                 {
                     products.map((product) =>{
                         console.log(product,'product')
                         const{id,title ,Category, price,image} =product;
                         return(
-                            <Link to={`/Products/${id}`} className="p-4 sm:w-1/2 lg:w-[450px] w-[350px] ">
+                            <Link to={`/Products/${id}`} className="p-4 mx-4 sm:mx-0  sm:w-1/2 lg:w-1/3 w-full ">
                             <div className="h-full border-2 border-gray-400 border-opacity-60 rounded-lg overflow-hidden  hover:transform hover:-translate-y-1  transition-transform duration-300">
                                    <img className=" max-w-screen-lg lg:h-72 md:h-48 w-full  object-center object-contain" src={image}  alt={title} />
                                    <div className="p-6">

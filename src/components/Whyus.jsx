@@ -13,8 +13,8 @@ const Whyus =() =>{
                 Discover a seamless shopping journey whith us 
                 </h5>
              </div>
-             <div className="grid grid-cols-1  lg:grid-cols-3 sm:pl-32 lg:pl-20 pl-12 gap-8 justify-center items-center ">
-                  <div className="lg:w-[400px] w-[350px]  shadow-md p-6 rounded-lg border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300">
+             <div className="grid grid-cols-1  lg:grid-cols-3 px-8 gap-8 justify-center items-center ">
+                  <div className="w-full  shadow-md p-6 rounded-lg border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300">
                     <div className="flex flex-row gap-4">
                       <div className=" h-14 w-14  border border-gray-500 rounded-full inline-back p-4  mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -28,7 +28,7 @@ const Whyus =() =>{
                       </div>
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
-                  <div className="  lg:w-[400px] w-[350px] shadow-md p-6 lg:-ml-4 rounded-md border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300" >
+                  <div className="  w-full shadow-md p-6  rounded-md border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300" >
                   <div className="flex flex-row gap-4">
                      <div className=" h-14 w-14  border border-gray-500 rounded-full inline-back p-4  mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -40,7 +40,7 @@ const Whyus =() =>{
                      </div>
                      <p  className="text-lg text-gray-400" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
-                  <div className="  lg:w-[400px] w-[350px] shadow-md p-6 lg:-ml-8 rounded-md border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300">
+                  <div className="  w-full shadow-md p-6  rounded-md border border-gray-500 hover:bg-slate-50 hover:transform hover:-translate-y-1  transition-transform duration-300">
                   <div className="flex flex-row gap-4">
                     <div className="h-14 w-14  border border-gray-500 rounded-full inline-back p-4  mb-3">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
