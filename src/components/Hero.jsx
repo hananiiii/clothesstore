@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Hero =() =>{
     return (
         <section id="hero" className="py-0">
-           <div className="container flex flex-wrap  items-center justify-center mx-auto mt-20 md:px-32 md:flex-row">
+           <div className="container flex flex-wrap  items-center justify-center mx-auto lg:mt-20 sm:mt-20 mt-12 md:px-32 md:flex-row">
                <div className="mb-14 lg:mb-0 lg:w-1/2 ">
-                  <h1 className="max-w-xl text-[2.7rem] leading-16 text-gray-700 font-black font-sans text-center sm:text-5xl text-3xl lg:text-left sm:leading-tight mb-5">
-                    Elevate Your Style with our Premium Collection of <span className="text-blue-500 font-black font-sans text-center sm:text-5xl  text-3xl lg:text-left sm:leading-tight ">Trendsetting Clothing –</span> Where Fashion Meets Passion.
+                  <h1 className="max-w-xl text-[2.7rem] lg:leading-16 sm:leading-tight leading-tight text-gray-700 font-black font-sans text-center sm:text-5xl text-3xl lg:text-left mb-5">
+                    Elevate Your Style with our Premium Collection of <span className="text-blue-500 font-black font-sans text-center sm:text-5xl  text-5xl lg:text-left leading-tight ">Trendsetting Clothing –</span> Where Fashion Meets Passion.
                   </h1>
                   <p className="max-w-xl  text-center text-gray-400 lg:text-left md:max-w-md  lg:text-lg md:text-md text-md ">
                   "Discover Your Signature Look with our Exquisite Range of Fashion Essentials – Unleash Your Inner Trendsetter Today!"

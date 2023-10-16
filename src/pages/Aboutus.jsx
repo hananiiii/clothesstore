@@ -11,12 +11,12 @@ const Aboutus =()=>{
                     <img src={Abouttwo} alt="about" className="w-[90%] rounded-sm "/>
                   
                 </div>
-                <div className=" lg:w-1/2 lg:mt-8 ">
-                    <h1 className=" lg:text-4xl text-3xl lg:mx-12  leading-normal lg:text-start text-center mb-8 ">
-                        <span className="text-blue-500 underline">Classy</span> Most trust online clothes <br/> website
+                <div className=" lg:w-1/2 lg:mt-8  justify-center mx-auto ">
+                    <h1 className=" lg:text-4xl text-3xl lg:mx-12 mx-4 leading-normal lg:text-start  text-center mb-8 ">
+                        <span className="text-blue-500 underline">Classy</span> Most trust online clothes website
                     </h1>
-                    <p className="lg:w-[75%]  font-normal text-lg  text-gray-700 w-[70%] lg:ml-12 ml-20  mt-4 lg:mt-8 lg:text-start text-center mb-8 ">
-                    At <span className="text-blue-500 font-bold"> Classy</span>, we're dedicated to bringing you the 
+                    <p className="lg:w-[75%]  font-normal text-lg  text-gray-700 w-[70%] flex justify-center mx-auto lg:ml-12   mt-4 lg:mt-8 lg:text-start text-center mb-8 ">
+                    At Classy, we're dedicated to bringing you the 
                     latest fashion trends and wardrobe essentials.
                      Our mission is to provide you with high-quality
                       clothing and accessories that not only make you
@@ -24,7 +24,7 @@ const Aboutus =()=>{
                        for style and a passion for customer satisfaction,
                         we're here to make your fashion journey extraordinary."
                     </p>
-                    <Link to="/products"><button className="bg-blue-500 hover:bg-blue-300 text-white font-bold py-2 px-4 lg:mx-12 md:mx-52 mx-[35%] rounded-sm over:drop-shadow-md hover:transform hover:-translate-y-1  transition-transform duration-300 cursor-pointer 
+                    <Link to="/products"><button className="bg-blue-500 hover:bg-blue-300 text-white font-bold py-4 px-4 lg:mx-12  flex justify-center mx-auto rounded-sm over:drop-shadow-md hover:transform hover:-translate-y-1  transition-transform duration-300 cursor-pointer 
                          flex items-center">
                           View products
                                <svg

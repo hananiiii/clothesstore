@@ -28,7 +28,7 @@ const Join =() =>{
          <h4 className="font-bold flex  justify-center lg:text-3xl text-2xl text-gray-700 mb-4 ">Join us</h4>
          <p className="font-normal flex  justify-center text-base text-gray-300 text-center mb-12">
          Join our community and stay connected to be the first to discover our upcoming products and releases.</p>
-         <form onSubmit={handleSubmit} className="flex justify-center flex-col gap-8 lg:w-[500px]  sm:w-[500px] w-[350px] lg:mx-[520px] sm:mx-36 mx-16">
+         <form onSubmit={handleSubmit} className="flex justify-center flex-col gap-8 lg:w-[500px]  sm:w-[500px] w-[350px] mx-auto">
             <div className=" w-full flex flex-row gap-6">
                 <input 
                 placeholder="First name"

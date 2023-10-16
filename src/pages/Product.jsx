@@ -106,7 +106,7 @@ import Footer from '../components/Footer';
                      {amount === 1 ? `${product?.price}$` : `${product?.price * amount}$`}
                 </h6> 
 
-                <div className='flex flex-row items-center gap-12'>
+                <div className='flex lg:flex-row sm:flex-row flex-col items-start gap-12'>
                    <div className='flex flex-row items-center '>
                     <button className='bg-blue-300 py-1 px-3 rounded-lg text-white text-3xl hover:bg-blue-500 hover:text-white ' onClick={()=>setAmount((prev) => prev - 1)}>-</button>
                     <span className='py-4 px-6 rounded-lg'>{amount}</span>
